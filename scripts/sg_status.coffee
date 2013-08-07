@@ -65,7 +65,7 @@ module.exports = (robot) ->
       else
         msg.send "@all Status: " + text
         console.log "Message sent: " + text + response.message
-        msg.send "Message sent: " + response.message + "(fuckyeah)"
+        msg.send "Message sent: " + response.message + "(success)"
 
   robot.respond /status_test (.*)/i, (msg) ->
     text = msg.match[1]
